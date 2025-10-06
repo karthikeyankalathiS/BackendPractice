@@ -1,0 +1,15 @@
+{
+  "name": "week1-nodejs-basics",
+  "version": "1.0.0",
+  "description": "Week 1 Node.js learning project - basics, modules, async programming, and CLI TODO app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "todo": "node todo-app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "learning", "cli", "todo"],
+  "author": "",
+  "license": "ISC"
+}
