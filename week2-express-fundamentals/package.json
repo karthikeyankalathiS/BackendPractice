@@ -1,0 +1,22 @@
+{
+  "name": "teamflow-express-api",
+  "version": "1.0.0",
+  "description": "TeamFlow - Enterprise Project Management API built with Express.js",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["express", "api", "project-management", "teamflow", "backend"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "helmet": "^8.0.0",
+    "morgan": "^1.10.0"
+  }
+}
